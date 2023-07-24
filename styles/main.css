@@ -179,11 +179,13 @@ footer>h3{
 .module {
     padding: 50px 100px;
     text-align: center;
-    width: 300px;
+    width: 575px;
 }
 
 .module h1{
     padding: 15px 0;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .module strong {
@@ -192,7 +194,7 @@ footer>h3{
 }
 
 .module button {
-    margin: 20px 0 20px 70px;
+    margin: 20px 0 20px 90px;
     padding: 8px 40px;
     display: flex;
     justify-content: center;
@@ -210,8 +212,8 @@ footer>h3{
 }
 
 .background-circle {
-    width: 75px;
-    height:75px;
+    width: 175px;
+    height:175px;
     background-color: #e6efff;
     border:1px solid #afb6c0;
     border-radius: 50%;
