@@ -74,10 +74,111 @@ nav a{
     text-align: center;
 } 
 
+.explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 0 10vh 0; 
+}
+.explore> p{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+.explore-button{
+    display:flex;
+    justify-content: space-around;
+    height: 125px;
+    width: 60vw;
+}
+
+.explore-selections{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-top: 10vh;
+    width: 125px;
+    border-radius: 10px;
+}
+
+.explore-selections > img{
+    margin-bottom: 10px;
+}
+
+.explore-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    padding: 20px;
+    width: 70vw;
+    color: white;
+
+}
+.explore-image-section{
+    border: 1px solid black;
+    width: 70vw;
+    height: 75vh;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 20vh;
+    display: flex;
+    align-items: center;
+}
+.explore-image{
+    width: 25vw;
+    padding-bottom: 25vh;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.explore-image-right{
+    background-color: #3671d9;
+    height: 75vh;
+    padding-top: 75px;
+    padding-left: 40px;
+    padding-right: 45px;
+    padding-bottom: 75px;
+    margin-right: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-sizing: border-box;
+    
+}
+.explore-image-right > p {
+    font-size: 13px;
+}
+
+.explore-image-right > button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    background-color: rgb(8,80,248);
+    color: white;
+    border-radius: 10px;
+    height: 5vh;
+    width: 15vw;
+    margin-top: 10vh;
+    padding: 0px;
+    padding-left: 50px;
+}
+.explore-image-right > button > span{
+    margin-left: 5vw;
+}
+
 footer{
     height:20vh;
     padding-top:3vh;
     padding-bottom: 25vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -143,9 +244,11 @@ footer>h3{
 }
 
 #white-dot{
+    margin-top: 30px;
     font-size: 10px;
 }
 .footer-list{
+    margin-right: 10vw;
     list-style-type: none;
 }
 .footer-li{
