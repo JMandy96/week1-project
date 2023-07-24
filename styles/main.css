@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Roboto;
     box-sizing: border-box;  
 }
 
@@ -45,8 +46,6 @@ nav a{
     color: black;
     text-align: center;
 }
-
-
 
 #button1 {
     border: 2px solid;
@@ -163,3 +162,67 @@ footer>h3{
     padding-right: 1vw;
     font-size: 20px;
 }
+
+.flex-main-column {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-main-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.module {
+    padding: 50px 100px;
+    text-align: center;
+    width: 575px;
+}
+
+.module h1{
+    padding: 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.module strong {
+    font-size: small;
+    margin: 15px 0;
+}
+
+.module button {
+    margin: 20px 0 20px 90px;
+    padding: 8px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border: 2px solid #7f7f7f;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.module button img {
+    width: 12px;
+    height: auto;
+}
+
+.background-circle {
+    width: 175px;
+    height:175px;
+    background-color: #e6efff;
+    border:1px solid #afb6c0;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    padding: 30px;
+    margin:10px 0 10px 85px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
